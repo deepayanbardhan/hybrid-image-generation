@@ -26,8 +26,8 @@ def hybrid(img1,img2):
     newfft=(2*fft1+1*fft2)/3;
     return ift(newfft)
 
-img1 = cv2.imread('D:\\deepayan\\study\\study\\sem 1\\ECE 558\\HW02-Due10-03\\dbardha_hw02\\mac.jpg',0)
-img2 = cv2.imread('D:\\deepayan\\study\\study\\sem 1\\ECE 558\\HW02-Due10-03\\dbardha_hw02\\kfc.jpg',0)
+img1 = cv2.imread('mac.jpg',0)
+img2 = cv2.imread('kfc.jpg',0)
 ans=hybrid(img1,img2)
 #DISPLAY
 cv2.imshow('image1',img1)
