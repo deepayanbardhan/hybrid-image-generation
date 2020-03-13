@@ -13,5 +13,6 @@ Similarly, in the example I have taken 2 images - First of the KFC logo and seco
 <img src="https://user-images.githubusercontent.com/53681666/76624839-6bc05080-650c-11ea-95e1-eaf2c287aee8.jpg" alt="caption needed" width="300" height="250">
 
 This is the hybrid image finally generated
+
 <img src="https://user-images.githubusercontent.com/53681666/76626413-8516cc00-650f-11ea-8950-cd7b859fd053.jpg" alt="caption needed" width="300" height="250">
 
