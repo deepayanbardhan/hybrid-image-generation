@@ -26,11 +26,16 @@ def hybrid(img1,img2):
     newfft=(2*fft1+1*fft2)/3;
     return ift(newfft)
 
+def mean(img1, img2):
+    return (img1+img2)/2
+
 img1 = cv2.imread('mac.jpg',0)
 img2 = cv2.imread('kfc.jpg',0)
-ans=hybrid(img1,img2)
+ans1 = hybrid(img1,img2)
+ans2 = mean(img1,img2)
 #DISPLAY
 cv2.imshow('image1',img1)
 cv2.imshow('image2',img2)
-cv2.imshow('hybrid',ans)
+cv2.imshow('hybrid',ans1)
+cv2.imshow('mean',ans2)
 cv2.waitKey(0)
